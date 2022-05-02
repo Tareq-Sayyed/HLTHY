@@ -44,3 +44,10 @@ if(clb){
         clD.innerHTML = "Calisthenics is a form of strength training consisting of a variety of movements that exercise large muscle groups, such as standing, grasping, pushing, etc. These exercises are often performed rhythmically and with minimal equipment, as bodyweight exercises.";
     });
 }
+
+/*
+    Displaying the programs
+    when Day number is clicked/tapped.
+*/ 
+
+
