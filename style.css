@@ -406,9 +406,21 @@
             padding-bottom: 15px;
             color: #088178;
         } 
-
-
 /* -- End Programs -- */
+
+/* -- About Us Page -- */
+    #about-head{
+        display: flex;
+        align-items: center;
+    }
+    #about-head div{
+        padding-left: 40px;
+    }
+    #about-head img{
+        width: 50%;
+        height: auto;
+    }
+/* -- End About Us Page -- */
 
 
 /* -- Responsiveness -- */
@@ -545,6 +557,14 @@
             width: 100%;
             
         }
+    /* -- About Page -- */
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
      
 }
 /* -- End Media Query -- */

@@ -658,3 +658,7 @@ if(clb){
                         </table>`
             });
         }
+    
+// About Us Page
+var abtUs = document.getElementById('abt-us');
+abtUs.innerHTML = `WE ARE HLTHY!!!!`;
