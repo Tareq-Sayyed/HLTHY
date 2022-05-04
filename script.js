@@ -661,4 +661,6 @@ if(clb){
     
 // About Us Page
 var abtUs = document.getElementById('abt-us');
-abtUs.innerHTML = `WE ARE HLTHY!!!!`;
+abtUs.innerHTML = ` Everyone can use a Personal Trainer. Why not take your power with you wherever you go? 
+Our online training pal provides 7 days/week fitness coaching straight to your inbox. 
+Check out our PC, mobile and tablet compatible app for more info.`;
