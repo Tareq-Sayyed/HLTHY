@@ -67,6 +67,9 @@
     button:active{
         transform: scale(0.8);
     }
+    .hide{
+        display: none;
+    }
 /* -- End Global Styling -- */
 
 /* -- Homepage -- */
@@ -528,6 +531,62 @@
     }   
 /* -- End Tutorials Page -- */
 
+/* -- Accoutns Page -- */
+    form .hidden-form{
+        display: none;
+    }
+    #SignIn h4{
+        color: #088178;
+        margin-bottom: 8px;
+    }
+    #SignUp h4{
+        color: #088178;
+        margin-bottom: 8px;
+    }
+
+/* -- End Accounts Page -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -- Responsiveness -- */
     /* -- Media Query -- */
@@ -715,3 +774,112 @@
     }
     /* -- End Media Query -- */
 /* -- End Responsiveness -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form--hidden {
+    display: none;
+}
+.form > *:first-child {
+    margin-top: 0;
+}
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: green;
+}
+
+.form__message--error {
+    color: red;
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 1px solid teal;
+    outline: none;
+    background: none;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+    border-color: teal;
+}
+
+.form__input--error {
+    color: red;
+    border-color: red;
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: red;
+}
+
+.form__button {
+    width: 100px;
+    padding: 7px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    background: teal;
+}
+
+.form__button:hover {
+    background: darkcyan;
+}
+
+.form__button:active {
+    transform: scale(0.9);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    text-decoration: none;
+    cursor: pointer;
+}

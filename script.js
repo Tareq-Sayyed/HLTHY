@@ -672,7 +672,7 @@ if(clb){
     It is one of the three powerlifting exercises, along with the squat and bench press.`;
 
     var sq = document.getElementById('sq');
-    sq.innerHTML = `A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. 
+    sq.innerHTML = ` A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. 
     During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.`;
 
     var bp = document.getElementById('bp');
@@ -691,3 +691,4 @@ if(clb){
     pu.innerHTML = `A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands and pulls up. 
     As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso.`;
 
+// Login & Signup
