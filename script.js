@@ -660,7 +660,34 @@ if(clb){
         }
     
 // About Us Page
-var abtUs = document.getElementById('abt-us');
-abtUs.innerHTML = ` Everyone can use a Personal Trainer. Why not take your power with you wherever you go? 
-Our online training pal provides 7 days/week fitness coaching straight to your inbox. 
-Check out our PC, mobile and tablet compatible app for more info.`;
+    var abtUs = document.getElementById('abt-us');
+    abtUs.innerHTML = ` Everyone can use a Personal Trainer. Why not take your power with you wherever you go? 
+    Our online training pal provides 7 days/week fitness coaching straight to your inbox. 
+    Check out our PC, mobile and tablet compatible app for more info.`;
+
+// Tutorials page
+    // Inserting description of the exercises.
+    var dl = document.getElementById('dl');
+    dl.innerHTML = `The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, torso perpendicular to the floor, before being placed back on the ground. 
+    It is one of the three powerlifting exercises, along with the squat and bench press.`;
+
+    var sq = document.getElementById('sq');
+    sq.innerHTML = `A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. 
+    During the descent of a squat, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.`;
+
+    var bp = document.getElementById('bp');
+    bp.innerHTML = `The bench press, or chest press, is an upper-body weight training exercise in which the trainee presses a weight upwards while lying on a weight training bench. 
+    The exercise uses the pectoralis major, the anterior deltoids, and the triceps, among other stabilizing muscles.`;
+
+    var lst = document.getElementById('lst');
+    lst.innerHTML = `It involves holding your entire body weight in your hands as you lift yourself off the floor in an "L" position. 
+    It's also what you see a lot of gymnasts doing during drills, as the exercise is an important strength base for mastering harder moves, like those done on the rings.`;
+
+    var hd = document.getElementById('hd');
+    hd.innerHTML = `A handstand is the act of supporting the body in a stable, inverted vertical position by balancing on the hands. 
+    In a basic handstand, the body is held straight with arms and legs fully extended, with hands spaced approximately shoulder-width apart and the legs together.`;
+
+    var pu = document.getElementById('pu');
+    pu.innerHTML = `A pull-up is an upper-body strength exercise. The pull-up is a closed-chain movement where the body is suspended by the hands and pulls up. 
+    As this happens, the elbows flex and the shoulders adduct and extend to bring the elbows to the torso.`;
+
